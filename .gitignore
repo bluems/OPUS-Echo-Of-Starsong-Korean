@@ -11,3 +11,5 @@ Origin/**
 *.tmp
 __pycache__/
 *.pyc
+
+**/build/
