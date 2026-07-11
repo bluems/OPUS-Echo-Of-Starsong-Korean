@@ -1,0 +1,12 @@
+# 최종 패치본은 translations/ + .fontready 로 재생성 가능 → 추적 제외 (대용량)
+Trans-Complex2KR/build/sharedassets2.assets
+
+# .fontready(폰트+언어 베이스)는 재생성이 어려워 추적 유지.
+#   105MB 대용량이므로 Git LFS 권장:  git lfs track "*.fontready"
+# 추적을 원치 않으면 아래 주석 해제:
+# Trans-Complex2KR/build/*.fontready
+
+# 잡동사니
+*.tmp
+__pycache__/
+*.pyc

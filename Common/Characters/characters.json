@@ -1,0 +1,597 @@
+[
+  {
+    "key": "Actor_Narrator",
+    "CHT": "",
+    "EN": "",
+    "JP": "",
+    "CHS": ""
+  },
+  {
+    "key": "Actor_Inspect",
+    "CHT": "",
+    "EN": "",
+    "JP": "",
+    "CHS": ""
+  },
+  {
+    "key": "Actor_InvisibleMan",
+    "CHT": "",
+    "EN": "",
+    "JP": "",
+    "CHS": ""
+  },
+  {
+    "key": "Actor_Message",
+    "CHT": "訊息",
+    "EN": "Message",
+    "JP": "メッセージ",
+    "CHS": "信息"
+  },
+  {
+    "key": "Actor_Man",
+    "CHT": "李莫",
+    "EN": "Jun",
+    "JP": "リバク",
+    "CHS": "李莫"
+  },
+  {
+    "key": "Actor_ManYoung",
+    "CHT": "年幼李莫",
+    "EN": "Young Jun",
+    "JP": "リバク",
+    "CHS": "年幼李莫"
+  },
+  {
+    "key": "Actor_ManElder",
+    "CHT": "老年李莫",
+    "EN": "Old Jun",
+    "JP": "リバク",
+    "CHS": "老年李莫"
+  },
+  {
+    "key": "Actor_Girl",
+    "CHT": "艾妲",
+    "EN": "Eda",
+    "JP": "エイダ",
+    "CHS": "艾妲"
+  },
+  {
+    "key": "Actor_GirlYoung",
+    "CHT": "年幼艾妲",
+    "EN": "Young Eda",
+    "JP": "エイダ",
+    "CHS": "年幼艾妲"
+  },
+  {
+    "key": "Actor_GirlTeenage",
+    "CHT": "少女艾妲",
+    "EN": "Teenage Eda",
+    "JP": "エイダ",
+    "CHS": "少女艾妲"
+  },
+  {
+    "key": "Actor_Sister",
+    "CHT": "菈米亞",
+    "EN": "Remi",
+    "JP": "ラミア",
+    "CHS": "菈米亚"
+  },
+  {
+    "key": "Actor_SisterYoung",
+    "CHT": "年幼菈米亞",
+    "EN": "Young Remi",
+    "JP": "ラミア",
+    "CHS": "年幼菈米亚"
+  },
+  {
+    "key": "Actor_Guard",
+    "CHT": "大魁",
+    "EN": "Kay",
+    "JP": "カイト",
+    "CHS": "大魁"
+  },
+  {
+    "key": "Actor_Doctor",
+    "CHT": "羅素醫生",
+    "EN": "Dr. Rushell",
+    "JP": "ラッセル先生",
+    "CHS": "罗素医生"
+  },
+  {
+    "key": "Actor_RobberLeader",
+    "CHT": "白牙",
+    "EN": "Bones",
+    "JP": "白い牙",
+    "CHS": "白牙"
+  },
+  {
+    "key": "Actor_Teacher",
+    "CHT": "紅",
+    "EN": "Red",
+    "JP": "紅",
+    "CHS": "红"
+  },
+  {
+    "key": "Actor_Leader",
+    "CHT": "鳶家主",
+    "EN": "Lee Clan Master",
+    "JP": "鳶家当主",
+    "CHS": "鸢家主"
+  },
+  {
+    "key": "Actor_Assassin",
+    "CHT": "瀛海刺客",
+    "EN": "East Ocean Assassin",
+    "JP": "瀛海の刺客",
+    "CHS": "瀛海刺客"
+  },
+  {
+    "key": "Actor_Businessman",
+    "CHT": "拉馬",
+    "EN": "Lamar",
+    "JP": "ラーマ",
+    "CHS": "拉马"
+  },
+  {
+    "key": "Actor_Computer",
+    "CHT": "紅樓",
+    "EN": "Red Chamber",
+    "JP": "紅楼",
+    "CHS": "红楼"
+  },
+  {
+    "key": "Actor_Computer_Kun",
+    "CHT": "太空船電腦",
+    "EN": "Ship AI",
+    "JP": "宇宙船AI",
+    "CHS": "飞船计算机"
+  },
+  {
+    "key": "Actor_CabyMerchantA",
+    "CHT": "水豚商人",
+    "EN": "Capybarian Trader",
+    "JP": "カピバラ商人",
+    "CHS": "水豚商人"
+  },
+  {
+    "key": "Actor_Emperor",
+    "CHT": "瀛海同盟王",
+    "EN": "Emperor of the East Ocean Lumen Alliance",
+    "JP": "瀛海皇帝",
+    "CHS": "瀛海同盟王"
+  },
+  {
+    "key": "Actor_Victim",
+    "CHT": "遇難者",
+    "EN": "Survivor",
+    "JP": "漂流者",
+    "CHS": "遇难者"
+  },
+  {
+    "key": "Actor_TowerElder",
+    "CHT": "巫塔長老",
+    "EN": "Witching Tower Elder",
+    "JP": "巫女の塔長老",
+    "CHS": "巫塔长老"
+  },
+  {
+    "key": "Actor_TowerStaff",
+    "CHT": "巫塔成員",
+    "EN": "Witching Tower Priestess",
+    "JP": "塔の門徒",
+    "CHS": "巫塔成员"
+  },
+  {
+    "key": "Actor_PMUSoldierA",
+    "CHT": "礦聯士兵",
+    "EN": "United Mining Soldier",
+    "JP": "鉱連兵士",
+    "CHS": "矿联士兵"
+  },
+  {
+    "key": "Actor_PMUSoldierB",
+    "CHT": "礦聯士兵",
+    "EN": "United Mining Soldier",
+    "JP": "鉱連兵士",
+    "CHS": "矿联士兵"
+  },
+  {
+    "key": "Actor_PMUCitizenA",
+    "CHT": "礦聯婦人",
+    "EN": "United Mining Woman",
+    "JP": "鉱連婦人",
+    "CHS": "矿联妇人"
+  },
+  {
+    "key": "Actor_TowerPeerA",
+    "CHT": "小女孩",
+    "EN": "Girl",
+    "JP": "少女A",
+    "CHS": "小女孩"
+  },
+  {
+    "key": "Actor_TowerPeerB",
+    "CHT": "小女孩",
+    "EN": "Girl",
+    "JP": "少女B",
+    "CHS": "小女孩"
+  },
+  {
+    "key": "Actor_BelterManA",
+    "CHT": "小行星帶大叔",
+    "EN": "Asteroid Belt Local",
+    "JP": "現地民",
+    "CHS": "小行星带大叔"
+  },
+  {
+    "key": "Actor_BelterManB",
+    "CHT": "小行星帶大叔",
+    "EN": "Asteroid Belt Local",
+    "JP": "現地民",
+    "CHS": "小行星带大叔"
+  },
+  {
+    "key": "Actor_YingManA",
+    "CHT": "瀛海大叔",
+    "EN": "East Ocean Man",
+    "JP": "瀛海人",
+    "CHS": "瀛海大叔"
+  },
+  {
+    "key": "Actor_YingNobleA",
+    "CHT": "瀛海貴族",
+    "EN": "East Ocean Noble",
+    "JP": "瀛海従者",
+    "CHS": "瀛海贵族"
+  },
+  {
+    "key": "Actor_YingNobleB",
+    "CHT": "瀛海貴族",
+    "EN": "East Ocean Noble",
+    "JP": "瀛海従者",
+    "CHS": "瀛海贵族"
+  },
+  {
+    "key": "Actor_YingBoyA",
+    "CHT": "孩子",
+    "EN": "Boy",
+    "JP": "子供",
+    "CHS": "孩子"
+  },
+  {
+    "key": "Actor_YingBoyB",
+    "CHT": "孩子",
+    "EN": "Boy",
+    "JP": "子供",
+    "CHS": "孩子"
+  },
+  {
+    "key": "Actor_BelterRobberA",
+    "CHT": "黑幫",
+    "EN": "Pirate",
+    "JP": "マフィア",
+    "CHS": "黑帮"
+  },
+  {
+    "key": "Actor_BelterRobberB",
+    "CHT": "黑幫",
+    "EN": "Pirate",
+    "JP": "マフィア",
+    "CHS": "黑帮"
+  },
+  {
+    "key": "Actor_BelterRobberC",
+    "CHT": "黑幫",
+    "EN": "Pirate",
+    "JP": "マフィア",
+    "CHS": "黑帮"
+  },
+  {
+    "key": "Actor_MountMerchantA",
+    "CHT": "龍脈協會商人",
+    "EN": "Lumen Association Merchant",
+    "JP": "龍脈協会商人",
+    "CHS": "龙脉协会商人"
+  },
+  {
+    "key": "Actor_MountMerchantB",
+    "CHT": "龍脈協會商人",
+    "EN": "Lumen Association Merchant",
+    "JP": "龍脈協会商人",
+    "CHS": "龙脉协会商人"
+  },
+  {
+    "key": "Actor_BelterMerchantD",
+    "CHT": "商人",
+    "EN": "Merchant",
+    "JP": "商人",
+    "CHS": "商人"
+  },
+  {
+    "key": "Actor_BelterMerchantB",
+    "CHT": "商人",
+    "EN": "Merchant",
+    "JP": "商人",
+    "CHS": "商人"
+  },
+  {
+    "key": "Actor_BelterMerchantC",
+    "CHT": "商人",
+    "EN": "Merchant",
+    "JP": "商人",
+    "CHS": "商人"
+  },
+  {
+    "key": "Actor_PMUComputer",
+    "CHT": "電腦",
+    "EN": "Terminal",
+    "JP": "端末",
+    "CHS": "计算机"
+  },
+  {
+    "key": "Actor_Generic_Unknown",
+    "CHT": "？？？",
+    "EN": "???",
+    "JP": "？？？",
+    "CHS": "？ ？ ？"
+  },
+  {
+    "key": "Actor_NarratorTitleCard",
+    "CHT": "旁白",
+    "EN": "Narrator",
+    "JP": "ナレーション",
+    "CHS": "旁白"
+  },
+  {
+    "key": "Actor_NarratorHistory",
+    "CHT": "旁白",
+    "EN": "Narrator",
+    "JP": "ナレーション",
+    "CHS": "旁白"
+  },
+  {
+    "key": "Actor_BelterMerchantA",
+    "CHT": "商人",
+    "EN": "Merchant",
+    "JP": "商人",
+    "CHS": "商人"
+  },
+  {
+    "key": "Actor_Turtledo",
+    "CHT": "總理事",
+    "EN": "Chairman",
+    "JP": "総理事",
+    "CHS": "总理事"
+  },
+  {
+    "key": "Actor_Soul",
+    "CHT": "汜靈魂",
+    "EN": "Lumen Spirit",
+    "JP": "理魂",
+    "CHS": "汜灵魂"
+  },
+  {
+    "key": "Actor_Mural",
+    "CHT": "萬道碑文",
+    "EN": "Myrian Inscription",
+    "JP": "万道碑文",
+    "CHS": "万道碑文"
+  },
+  {
+    "key": "Actor_BelterVeteransA",
+    "CHT": "小行星帶士兵",
+    "EN": "Asteroid Belt Veteran",
+    "JP": "兵士",
+    "CHS": "小行星带士兵"
+  },
+  {
+    "key": "Actor_BelterGuerrilla",
+    "CHT": "小行星帶游擊隊",
+    "EN": "Asteroid Belt Guerrilla",
+    "JP": "ゲリラ",
+    "CHS": "小行星带游击队"
+  },
+  {
+    "key": "Actor_BelterCitizenB",
+    "CHT": "小行星帶市民",
+    "EN": "Asteroid Belt Resident",
+    "JP": "市民",
+    "CHS": "小行星带市民"
+  },
+  {
+    "key": "Actor_BelterCitizenA",
+    "CHT": "小行星帶市民",
+    "EN": "Asteroid Belt Resident",
+    "JP": "市民",
+    "CHS": "小行星带市民"
+  },
+  {
+    "key": "Actor_BelterScavengerA",
+    "CHT": "小行星帶拾荒人",
+    "EN": "Asteroid Belt Scavenger",
+    "JP": "ゴミ漁り",
+    "CHS": "小行星带拾荒人"
+  },
+  {
+    "key": "Actor_BelterMissionaryA",
+    "CHT": "小行星帶信徒",
+    "EN": "Asteroid Belt Missionary",
+    "JP": "信者",
+    "CHS": "小行星带信徒"
+  },
+  {
+    "key": "Actor_BelterBarkeeper",
+    "CHT": "酒吧老闆",
+    "EN": "Barkeeper",
+    "JP": "マスター",
+    "CHS": "酒吧老板"
+  },
+  {
+    "key": "Actor_BelterRefugees",
+    "CHT": "小行星帶難民",
+    "EN": "Asteroid Belt Refugee",
+    "JP": "難民",
+    "CHS": "小行星带难民"
+  },
+  {
+    "key": "Actor_MountTheTenA",
+    "CHT": "十人會會長",
+    "EN": "Council President",
+    "JP": "十人會会長",
+    "CHS": "十人会会长"
+  },
+  {
+    "key": "Actor_MountTheTenC",
+    "CHT": "十人會成員",
+    "EN": "Council Member",
+    "JP": "十人會会員",
+    "CHS": "十人会成员"
+  },
+  {
+    "key": "Actor_CabyMerchantB",
+    "CHT": "水豚商人",
+    "EN": "Capybarian Trader",
+    "JP": "カピバラ商人",
+    "CHS": "水豚商人"
+  },
+  {
+    "key": "Actor_MountTheTenB",
+    "CHT": "十人會成員",
+    "EN": "Council Member",
+    "JP": "十人會会員",
+    "CHS": "十人会成员"
+  },
+  {
+    "key": "Actor_MountCitizenA",
+    "CHT": "朝山市民",
+    "EN": "Mt. Aurora Resident",
+    "JP": "暁天山市民",
+    "CHS": "朝山市民"
+  },
+  {
+    "key": "Actor_MountWorkerA",
+    "CHT": "朝山工人",
+    "EN": "Mt. Aurora Worker",
+    "JP": "暁天山労働者",
+    "CHS": "朝山工人"
+  },
+  {
+    "key": "Actor_MountNobleA",
+    "CHT": "朝山貴族",
+    "EN": "Mt. Aurora Noble",
+    "JP": "暁天山貴族",
+    "CHS": "朝山贵族"
+  },
+  {
+    "key": "Actor_MountMerchantC",
+    "CHT": "龍脈協會商人",
+    "EN": "Lumen Association Merchant",
+    "JP": "龍脈協会商人",
+    "CHS": "龙脉协会商人"
+  },
+  {
+    "key": "Actor_MountCaveRunnerA",
+    "CHT": "龍脈探勘人",
+    "EN": "Cave Runner",
+    "JP": "龍脈探検家",
+    "CHS": "龙脉探勘人"
+  },
+  {
+    "key": "Actor_MountJournalist",
+    "CHT": "龍脈日報記者",
+    "EN": "The Daily Lumen Journalist",
+    "JP": "龍脈タイムズ記者",
+    "CHS": "龙脉日报记者"
+  },
+  {
+    "key": "Actor_PMUJournalist",
+    "CHT": "統合新聞記者",
+    "EN": "Unity News Journalist",
+    "JP": "統合新聞記者",
+    "CHS": "统合新闻记者"
+  },
+  {
+    "key": "Actor_PMUOfficerB",
+    "CHT": "礦聯官員",
+    "EN": "United Mining Officer",
+    "JP": "鉱連士官",
+    "CHS": "矿联官员"
+  },
+  {
+    "key": "Actor_PMUOfficerA",
+    "CHT": "礦聯官員",
+    "EN": "United Mining Officer",
+    "JP": "鉱連士官",
+    "CHS": "矿联官员"
+  },
+  {
+    "key": "Actor_TowerWanderer",
+    "CHT": "流浪女巫",
+    "EN": "Drifting Witch",
+    "JP": "流浪の巫女",
+    "CHS": "流浪女巫"
+  },
+  {
+    "key": "Actor_Emeth",
+    "CHT": "艾姆",
+    "EN": "Emeth",
+    "JP": "エム",
+    "CHS": "艾姆"
+  },
+  {
+    "key": "Actor_None",
+    "CHT": null,
+    "EN": "",
+    "JP": "",
+    "CHS": ""
+  },
+  {
+    "key": "Actor_YingBoyC",
+    "CHT": "孩子",
+    "EN": "Boy",
+    "JP": "少年",
+    "CHS": "孩子"
+  },
+  {
+    "key": "Actor_Helius",
+    "CHT": "汜靈魂",
+    "EN": "Lumen Spirit",
+    "JP": "理魂",
+    "CHS": "汜灵魂"
+  },
+  {
+    "key": "Actor_AncientSoul",
+    "CHT": "汜靈魂",
+    "EN": "Lumen Spirit",
+    "JP": "理魂",
+    "CHS": "汜灵魂"
+  },
+  {
+    "key": "Actor_MountProfessor",
+    "CHT": "教授",
+    "EN": "Professor",
+    "JP": "教授\n",
+    "CHS": "教授"
+  },
+  {
+    "key": "Actor_MountStudent",
+    "CHT": "學生",
+    "EN": "Student",
+    "JP": "学生",
+    "CHS": "学生"
+  },
+  {
+    "key": "Actor_TowerWoman",
+    "CHT": "婦人",
+    "EN": "Woman",
+    "JP": "女性",
+    "CHS": "妇人"
+  },
+  {
+    "key": "Actor_Terra",
+    "CHT": "汜靈魂",
+    "EN": "Lumen Spirit",
+    "JP": "理魂",
+    "CHS": "汜灵魂"
+  }
+]
