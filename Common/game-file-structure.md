@@ -37,10 +37,15 @@
 ## 3. 폰트 시스템
 
 - TMP Dynamic SDF. 한글 글리프가 있는 폰트가 필요.
-- **안정적 방법: 기존 CJK 폰트 소스를 in-place 교체(repurpose)**. 예: Font `2184`(원래 GlowSansJ-Normal-Regular)의 `m_FontData`를 **Noto Sans CJK KR**로 덮어씀(이름은 그대로 둬도 됨). 신규 Font 객체를 UnityPy로 "추가"하면 재읽기는 되나 **Unity가 로드하지 않아 렌더 실패** → 반드시 in-place 교체.
-- `FontSettings` SO(예 pid 75398)에 KR→폰트 매핑(fallbackFonts) 추가.
-- JP 글리프는 Noto CJK KR에 포함되어 기능 손실 없음.
-- 검증됨: 위 구성으로 인게임 한글 렌더 정상.
+- **검증된 방법: 기존 폰트 오브젝트를 clone 해 KR 전용 TMP_FontAsset 을 신설**하고 FontSettings 로 배선. 구현·자동화는 `Common/scripts/build_krfont.py`. 세 오브젝트를 clone(=기존 로드 가능한 오브젝트의 raw data 복사 + 새 `path_id` 부여, `maxpid+1/2/3`)한다:
+  1. **Font** `2184`(원래 GlowSansJ-Normal-Regular) → clone 후 `m_FontData`를 **Noto Sans CJK KR** OTF 로 교체, 이름 `NotoSansCJKkr-Regular`.
+  2. **SDF Atlas Texture** `148` → clone, 이름 `NotoSansCJKkr-Regular SDF Atlas`.
+  3. **TMP_FontAsset** `75388`(템플릿) → clone 후 `m_SourceFontFile`→신규 Font, `m_AtlasTextures`→신규 Atlas 로 연결, 이름 `NotoSansCJKkr-Regular SDF`.
+- `FontSettings` SO(예 pid `75398`)의 각 `_fontAssetMappings`(Default/Bold 등) 항목에 **KR(`language=8`) 매핑**을 추가 — 기존 CHT 항목을 복제해 `fallbackFonts`를 신규 TMP(위 3)로 지정.
+- **주의**: 아무 필드나 채운 Font 를 맨바닥에서 "새로 만들어" 추가하면 Unity 가 로드하지 못해 렌더 실패할 수 있다. 반드시 게임이 실제로 로드하는 기존 오브젝트를 **clone**(raw data 복사)해 구조를 보존할 것. (초기엔 sharedassets0 의 Font 를 in-place 교체하는 방식도 썼으나, TMP 파이프라인은 위 clone 방식으로 정착.)
+- JP 글리프는 Noto CJK KR 에 포함되어 기능 손실 없음.
+- 검증: `Common/scripts/verify_krfont.py`(신규 Font/Atlas/TMP + FontSettings KR 매핑을 이름 기준 확인). 위 구성으로 인게임 한글 렌더 정상 확인됨.
+- 게임 업데이트 시 pid(`2184/148/75388/75398`)가 바뀔 수 있음 → `build_krfont.py` 상단 `SRC_*` 상수를 이름으로 재확인.
 
 ## 4. 화자(Actor) 매핑 — 대사 번역의 핵심
 
