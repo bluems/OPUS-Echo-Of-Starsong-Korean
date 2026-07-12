@@ -9,7 +9,7 @@
 | KR | EN | CHT | 성별 | 역할 | 대사수 | 성격 영어 태그 |
 |---|---|---|---|---|---:|---|
 | 에다 | Eda | 艾妲 | F | 공동주인공·루멘 탐사인(cave runner)/전직 여巫 지망생 | 1222 | `sardonic` `streetwise` `sharp-tongued` `resourceful` `guarded` `wry-humor` `cynical-shell/warm-core` `tomboyish` `world-weary` `pragmatic-negotiator` |
-| 준 (이준) | Jun | 李莫 | M | 공동주인공·로댕 가문 후예/조율사(tuner) | 1076 | `earnest` `sincere` `principled` `straightforward` `gentle` `quietly-determined` `naive-idealist` `soft-spoken` `dutiful` |
+| 준 (준) | Jun | 李莫 | M | 공동주인공·로댕 가문 후예/조율사(tuner) | 1076 | `earnest` `sincere` `principled` `straightforward` `gentle` `quietly-determined` `naive-idealist` `soft-spoken` `dutiful` |
 | 레미 | Remi | 菈米亞 | F | 에다의 **의자매**(혈연 아님), "언니(姊姊)" 호칭 | 525 | `feisty` `protective` `sassy` `spirited` `loyal` `quick-tempered` `streetwise` `blunt` `defiant` |
 | 케이 | Kay | 大魁 | M | 준의 호위(少主 호칭)·동해인 | 322 | `gruff` `fiercely-loyal` `protective` `hot-tempered` `blunt` `proud` `dutiful-retainer` `tough` |
 | 본즈 | Bones | 白牙 | M | 몸값 강도단 두목 | 143 | `menacing` `taunting` `casual-cruel` `predatory` `boisterous` `thuggish` `mocking` |

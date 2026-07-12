@@ -12,6 +12,7 @@
   {"type":"auto","old":"홍루","new":"레드 챔버"},
   {"type":"auto","old":"영해","new":"동해"},
   {"type":"auto","old":"이현","new":"셴 리"},
+  {"type":"auto","old":"이준","new":"준","boundary":"left"},
 
   {"type":"auto","old":"영기","new":"루미움","boundary":"left"},
   {"type":"auto","old":"영수","new":"루메나이드","boundary":"left"},
