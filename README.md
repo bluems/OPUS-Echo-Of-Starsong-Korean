@@ -31,12 +31,25 @@ SIGONO의 우주 어드벤처 게임 **《OPUS: Echo of Starsong》**(*별노래
 | --- | --- |
 |<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8e56180a-4c05-4469-97e1-1500ecfcc38d" />|<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/23eba8a9-8c44-46b5-9e60-03d146008c6b" />|
 |<img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/44141929-f433-4e07-aa02-a04fba13a0e5" />|<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1d76f8b5-62ed-45cf-bf0f-ee3cf152fe19" />|
-||<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e870141a-8e1d-4de3-ae09-35c46cb98dc8" />
-|
+||<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e870141a-8e1d-4de3-ae09-35c46cb98dc8" /> |
+
 
 - 기존 버전의 주인공 이름 한자음 직역과 달리 보다 친숙한 영문 버전 이름을 차용했습니다.
-- 또한, 문체를 좀 더 자연스럽게 다듬어 한국어 느낌에 더 가깝게 번역했습니다.
+- 게임 내의 지형, 물질을 지칭하는 용맥과, 게임의 주요 설정인 노래를 의미하는 별노래를 명확히 분리하려고 했습니다.
+  - 중문 원어 기준 별노래와 용맥은 거의 같은 단어가 쓰입니다. (중국어 직영하면 게임 제목은 OPUS: 용맥상가 또는 OPUS: 용맥의 잔향)
+  - 영문 버전과 공식 아트북은 용맥을 별노래로 번역했고, 한국에는 이 제목으로 알려졌습니다.
+  - 다만, 게임 내 대화 흐름이나 지칭하는 실제 의미에 따라 용맥으로 번역하는게 맞는 것은 용맥을 사용하는 등 구분지어 번역했습니다.
+- 문체를 좀 더 자연스럽게 다듬어 한국어 느낌에 더 가깝게 번역했습니다.
+  - 번역기에서 나타나는 무언가 어색한 문장을 최대한 걷어냈습니다(고유명사의 이질감은 제외)
+  - 중문/영문/일문 교차 검증으로 캐릭터 성격을 분석하고 그에 맞는 발화체로 번역 후 첨삭했습니다.
 - 등장인물 간의 관계와 지위를 번역에 반영하되, 좀 더 로컬라이징에 신경을 써봤습니다.
+  - 한국에서는 오늘날엔 익숙하지만 잘 쓰이지 않는 가주 대신 종갓집 등에서 쓰이는 종손을 차용했습니다.
+  - 그리고 그에 맞게 오가는 발화체나 메일 문체를 다듬었습니다 -> ex) 메일 제목: OO에 대하여, 종손 어른께 검토를 청합니다
+- 일부 한국어 표현이 없거나 어순이 다른 단어는 원신 등 타 게임을 참고하여 어떤 단어로 로컬라이징했는지 확인하고 번역했습니다. 같은 단어라도 앞 뒤 문장에 따라 실제 뜻이 다른게 보이면 반영했습니다.
+  - 산괴 명감 -> 뭇 산의 만물
+  - 용맥 초화 -> 용맥 화초
+  - 산괴 백경 -> 군산백
+  - 용맥의 잔향 -> 별노래의 메아리
 
 ---
 
