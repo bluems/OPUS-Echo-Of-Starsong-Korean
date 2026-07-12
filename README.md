@@ -2,6 +2,8 @@
 
 SIGONO의 우주 어드벤처 게임 **《OPUS: Echo of Starsong》**(*별노래의 메아리*, Steam Full Bloom Edition)의 **비공식 한국어 패치**입니다. 이전에 먼저 [노고해주신 분](https://gall.dcinside.com/mgallery/board/view/?id=indiegame&no=195900)이 계시지만, 해당 파일을 더 이상 입수할 수 없어 직접 다시 번역했습니다. <- 비밀번호를 몰라서 헤맸는데 다른 분이 알려주셨네요.. 번역본 차이 정도+수정가능으로 써주시면 감사하겠습니다.
 
+> 위 원글 첨부파일 비번은 `I8lsbGNxGZvc` 라고 합니다.
+
 이 게임은 아직 공식 한국어를 지원하지 않습니다. 그래서 직접, 중국어 원작·영어판·일본어판을 함께 대조해 가며 우리말로 옮겼습니다. 이 저장소는 그 번역 결과물과, **"왜 이렇게 옮겼는가"에 대한 기록**을 모아 둔 곳입니다.
 
 > 개발사(SIGONO)는 [Steam 커뮤니티](https://steamcommunity.com/app/1504500/discussions/0/3825287408062401172/?l=koreana)에서 팬 언어 패치를 긍정적으로 허용하고 있습니다. 이 패치는 게임 파일 중 텍스트가 든 파일 하나(`sharedassets2.assets`)만 바꾸며, 게임 자체를 배포하지는 않습니다.
