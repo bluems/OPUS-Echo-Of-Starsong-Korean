@@ -1,0 +1,37 @@
+name: Validate translations
+
+# 기여자 PR 검증용. 시크릿·R2·게임파일 없이 JSON 문법/UTF-8 만 확인.
+# fork PR 컨텍스트라 시크릿이 주입되지 않음 → 외부 기여자에게 안전.
+on:
+  pull_request:
+    paths:
+      - 'Trans-*/translations/**.json'
+  push:
+    branches: [main]
+    paths:
+      - 'Trans-*/translations/**.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate *_kr.json (문법 + UTF-8)
+        run: |
+          shopt -s nullglob
+          files=(Trans-*/translations/*_kr.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "검증할 번역 파일 없음"; exit 0
+          fi
+          fail=0
+          for f in "${files[@]}"; do
+            if python -c "import json,sys; json.load(open(sys.argv[1],encoding='utf-8'))" "$f"; then
+              echo "ok   $f"
+            else
+              echo "FAIL $f"; fail=1
+            fi
+          done
+          exit $fail

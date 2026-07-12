@@ -1,0 +1,816 @@
+{
+ "_meta": {
+  "purpose": "영문 기준 비교버전용 고유명 교차언어표(CHT/병음/EN/KR/유형). 음차=EN 따름, 신화·의역=한자음/의역.",
+  "updated": "2026-07-12"
+ },
+ "characters": [
+  {
+   "cht": "艾妲",
+   "en": "Eda",
+   "kr": "에다 (룬)",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "李莫",
+   "en": "Jun",
+   "kr": "준 / 이준",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "菈米亞",
+   "en": "Remi",
+   "kr": "레미 (도리안)",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "大魁",
+   "en": "Kay",
+   "kr": "케이 (볼란)",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "白牙",
+   "en": "Bones",
+   "kr": "본즈",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "紅",
+   "en": "Red",
+   "kr": "레드",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "羅素醫生",
+   "en": "Dr. Rushell",
+   "kr": "러셀 박사",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "鳶刺客",
+   "en": "Kite Assassin",
+   "kr": "자객 (연가 자객)",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "紅樓電腦",
+   "en": "Red Chamber (AI)",
+   "kr": "홍루",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "商人拉馬",
+   "en": "Lamar",
+   "kr": "라마 (상인)",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "李玄",
+   "en": "Shen Lee (Clan Master)",
+   "kr": "이현 (종손)",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "艾姆",
+   "en": "Emeth",
+   "kr": "에메트",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "王上",
+   "en": "Emperor / Helius",
+   "kr": "왕(폐하) / 을황",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "斑鳩",
+   "en": "Benzel",
+   "kr": "벤젤",
+   "type": "인물(EN기준)"
+  },
+  {
+   "cht": "圖羅",
+   "en": "Toran",
+   "kr": "토란",
+   "type": "인물(EN기준)"
+  }
+ ],
+ "deities": [
+  {
+   "cht": "太乙 / 太陽神",
+   "en": "Taiyang / sun god",
+   "kr": "태을 / 태양신",
+   "type": "신화명(한자음)"
+  },
+  {
+   "cht": "乙皇",
+   "en": "Helius",
+   "kr": "을황",
+   "type": "신화명(한자음)"
+  },
+  {
+   "cht": "燭龍",
+   "en": "Ignis",
+   "kr": "촉룡",
+   "type": "신화명(한자음)"
+  },
+  {
+   "cht": "后土",
+   "en": "Terra",
+   "kr": "후토",
+   "type": "신화명(한자음)"
+  },
+  {
+   "cht": "鯤",
+   "en": "Khun",
+   "kr": "곤",
+   "type": "신화명(한자음)"
+  },
+  {
+   "cht": "白龍",
+   "en": "Phoenix",
+   "kr": "백룡",
+   "type": "신화명(한자음)"
+  },
+  {
+   "cht": "大荒",
+   "en": "Excidium",
+   "kr": "대황",
+   "type": "신화명(한자음)"
+  }
+ ],
+ "world_terms": [
+  {
+   "cht": "龍脈",
+   "en": "Lumen",
+   "kr": "용맥",
+   "type": "용어"
+  },
+  {
+   "cht": "龍鳴",
+   "en": "Starsong",
+   "kr": "별노래",
+   "type": "용어"
+  },
+  {
+   "cht": "龍脈常歌 (원작 CHT 부제)",
+   "en": "—",
+   "kr": "용맥상가",
+   "type": "용어"
+  },
+  {
+   "cht": "게임 타이틀(브랜딩 예외)",
+   "en": "OPUS: Echo of Starsong",
+   "kr": "별노래의 메아리",
+   "type": "용어"
+  },
+  {
+   "cht": "殘響",
+   "en": "Echo",
+   "kr": "메아리",
+   "type": "용어"
+  },
+  {
+   "cht": "星歌",
+   "en": "starsong",
+   "kr": "별노래",
+   "type": "용어"
+  },
+  {
+   "cht": "共振器/共振儀 (기기) Reso-scanner",
+   "en": "resonator / reso-scanner",
+   "kr": "공진기",
+   "type": "용어"
+  },
+  {
+   "cht": "共鳴 (공명하는 행위)",
+   "en": "resonate",
+   "kr": "공명",
+   "type": "용어"
+  },
+  {
+   "cht": "紅樓 (선박·AI)",
+   "en": "Red Chamber",
+   "kr": "홍루",
+   "type": "용어"
+  },
+  {
+   "cht": "信用點",
+   "en": "credits",
+   "kr": "크레딧",
+   "type": "용어"
+  },
+  {
+   "cht": "超加速導航",
+   "en": "hyper travel",
+   "kr": "초가속 항행",
+   "type": "용어"
+  },
+  {
+   "cht": "礦聯",
+   "en": "United Mining",
+   "kr": "광련",
+   "type": "용어"
+  },
+  {
+   "cht": "兔窟",
+   "en": "Rabbit Hole",
+   "kr": "토끼굴",
+   "type": "용어"
+  },
+  {
+   "cht": "瀛海",
+   "en": "East Ocean",
+   "kr": "영해",
+   "type": "용어"
+  },
+  {
+   "cht": "家主",
+   "en": "Clan Master",
+   "kr": "종손",
+   "type": "용어"
+  },
+  {
+   "cht": "女巫 / 巫女",
+   "en": "witch",
+   "kr": "무녀",
+   "type": "용어"
+  },
+  {
+   "cht": "龍門",
+   "en": "Myrian gate",
+   "kr": "용문",
+   "type": "용어"
+  },
+  {
+   "cht": "萬道",
+   "en": "Myria/Myrian",
+   "kr": "만도",
+   "type": "용어"
+  }
+ ],
+ "places": [
+  {
+   "cht": "絲洲",
+   "pinyin": "sizhou",
+   "en": "Silk Oasis",
+   "kr": "실크 오아시스",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "垃圾山",
+   "pinyin": "lajishan",
+   "en": "Trash Mountain",
+   "kr": "쓰레기산",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "南山",
+   "pinyin": "nanshan",
+   "en": "Southern Peak",
+   "kr": "남산",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "兔窟一",
+   "pinyin": "tukuyi",
+   "en": "Rabbit Hole I",
+   "kr": "토끼굴 1호",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "瀛海",
+   "pinyin": "yinghai",
+   "en": "East Ocean",
+   "kr": "영해",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "深水",
+   "pinyin": "shenshui",
+   "en": "Aqua Abyss",
+   "kr": "심수",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "兔窟三",
+   "pinyin": "tukusan",
+   "en": "Rabbit Hole III",
+   "kr": "토끼굴 3",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "兔窟二",
+   "pinyin": "tukuer",
+   "en": "Rabbit Hole II",
+   "kr": "토끼굴 2",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "渡頭",
+   "pinyin": "dutou",
+   "en": "Ferry Point",
+   "kr": "나루",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "雲龍",
+   "pinyin": "yunlong",
+   "en": "Misty Dragon",
+   "kr": "운룡",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "龍洞",
+   "pinyin": "longdong",
+   "en": "Luma Caverna",
+   "kr": "용동",
+   "type": "意譯(EN semantic)"
+  },
+  {
+   "cht": "共工",
+   "pinyin": "gonggong",
+   "en": "Gonggong",
+   "kr": "공공",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "鬼方",
+   "pinyin": "guifang",
+   "en": "Guifang",
+   "kr": "귀방",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "蓬萊",
+   "pinyin": "penglai",
+   "en": "Penglai",
+   "kr": "봉래",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "爾瓦",
+   "pinyin": "erwa",
+   "en": "Erwah",
+   "kr": "에르바",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "灶神",
+   "pinyin": "zaoshen",
+   "en": "Zao Shen",
+   "kr": "조신",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "桃源鄉",
+   "pinyin": "taoyuanxiang",
+   "en": "Taoyuan",
+   "kr": "도원향",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "塔瓦斯",
+   "pinyin": "tawasi",
+   "en": "Tawas",
+   "kr": "타와스",
+   "type": "병음(EN=pinyin)"
+  },
+  {
+   "cht": "太乙",
+   "pinyin": "taiyi",
+   "en": "Taiyang",
+   "kr": "태을",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "梅費爾",
+   "pinyin": "meifeier",
+   "en": "Mayfair",
+   "kr": "메이페어",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "羅登",
+   "pinyin": "luodeng",
+   "en": "Rodin",
+   "kr": "로댕",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "朝山",
+   "pinyin": "chaoshan",
+   "en": "Mount Aurora",
+   "kr": "조산(朝山)",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "鐵嵐城",
+   "pinyin": "tielancheng",
+   "en": "Ironwind",
+   "kr": "철람성(鐵嵐城)",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "黑龍",
+   "pinyin": "heilong",
+   "en": "Banshee",
+   "kr": "흑룡(黑龍)",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "白塚",
+   "pinyin": "baizhong",
+   "en": "Shiratsuka",
+   "kr": "시라츠카",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "大荒",
+   "pinyin": "dahuang",
+   "en": "Excidium",
+   "kr": "대황",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "朱紅",
+   "pinyin": "zhuhong",
+   "en": "Vermillion",
+   "kr": "주홍",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "山姆",
+   "pinyin": "shanmu",
+   "en": "Sam",
+   "kr": "샘",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "雷米",
+   "pinyin": "leimi",
+   "en": "Nomy",
+   "kr": "노미",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "麗莎",
+   "pinyin": "lisha",
+   "en": "Lisa",
+   "kr": "리사",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "多朗",
+   "pinyin": "duolang",
+   "en": "Lucidus",
+   "kr": "다랑",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "燭龍",
+   "pinyin": "zhulong",
+   "en": "Ignis",
+   "kr": "촉룡",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "艾菲爾",
+   "pinyin": "aifeier",
+   "en": "Eiffel",
+   "kr": "에펠",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "殼神",
+   "pinyin": "keshen",
+   "en": "Concha",
+   "kr": "각신",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "紅壺",
+   "pinyin": "honghu",
+   "en": "The Krimson Kettle",
+   "kr": "홍호",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "智神",
+   "pinyin": "zhishen",
+   "en": "Saraswati",
+   "kr": "지신",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "普濟",
+   "pinyin": "puji",
+   "en": "Paikje",
+   "kr": "백제",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "倫斯特",
+   "pinyin": "lunsite",
+   "en": "Leinster",
+   "kr": "린스터",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "貴人",
+   "pinyin": "guiren",
+   "en": "Fortuna",
+   "kr": "귀인",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "乙皇",
+   "pinyin": "yihuang",
+   "en": "Helius",
+   "kr": "을황",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "奧斯",
+   "pinyin": "aosi",
+   "en": "Oss",
+   "kr": "오스",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "虎沙",
+   "pinyin": "husha",
+   "en": "Huusha",
+   "kr": "후샤",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "圖拉",
+   "pinyin": "tula",
+   "en": "Toola",
+   "kr": "투라",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "馬賽",
+   "pinyin": "masai",
+   "en": "Marseille",
+   "kr": "마르세유",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "星羅",
+   "pinyin": "xingluo",
+   "en": "Shinra",
+   "kr": "신라",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "浮生若夢",
+   "pinyin": "fushengruomeng",
+   "en": "Dreamer's Pit",
+   "kr": "부생약몽",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "大笨鐘",
+   "pinyin": "dabenzhong",
+   "en": "Great Benjamin",
+   "kr": "대분종",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "西雷山",
+   "pinyin": "xileishan",
+   "en": "West Mount Tonitrus",
+   "kr": "서뢰산",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "西塔",
+   "pinyin": "xita",
+   "en": "Xida",
+   "kr": "시타",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "吉塔諾",
+   "pinyin": "jitanuo",
+   "en": "Gitano",
+   "kr": "기타노",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "波希米亞",
+   "pinyin": "boximiya",
+   "en": "Bohemia",
+   "kr": "보헤미아",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "后土",
+   "pinyin": "houtu",
+   "en": "Terra",
+   "kr": "후토",
+   "type": "음차/개명(EN name)"
+  },
+  {
+   "cht": "海國",
+   "pinyin": "haiguo",
+   "en": "Oceania",
+   "kr": "해국",
+   "type": "음차/개명(EN name)"
+  }
+ ],
+ "factions": [
+  {
+   "cht": "萬道燭龍商會",
+   "pinyin": "wandaozhulongshanghui",
+   "en": "Myrian Ignis Guild",
+   "kr": "만도 촉룡 상회",
+   "type": "세력"
+  },
+  {
+   "cht": "瀛海龍脈同盟",
+   "pinyin": "yinghailongmaitongmeng",
+   "en": "East Ocean Lumen Alliance",
+   "kr": "영해 용맥 동맹",
+   "type": "세력"
+  },
+  {
+   "cht": "星環自由戰線",
+   "pinyin": "xinghuanziyouzhanxian",
+   "en": "Ring Liberation Front",
+   "kr": "성환 자유 전선",
+   "type": "세력"
+  },
+  {
+   "cht": "行星礦業聯合集團",
+   "pinyin": "xingxingkuangyelianhejituan",
+   "en": "United Mining Corp.",
+   "kr": "행성 광업 연합 그룹",
+   "type": "세력"
+  },
+  {
+   "cht": "持有者不明",
+   "pinyin": "chiyouzhebuming",
+   "en": "Unknown",
+   "kr": "소유자 불명",
+   "type": "세력"
+  },
+  {
+   "cht": "倫敦商業聯盟",
+   "pinyin": "lundunshangyelianmeng",
+   "en": "London Trade Alliance",
+   "kr": "런던 상업 연맹",
+   "type": "세력"
+  },
+  {
+   "cht": "衝突遺族撫卹會",
+   "pinyin": "chongtuyizufuxuhui",
+   "en": "Lumen War Relief Foundation",
+   "kr": "전쟁 유가족 위문회",
+   "type": "세력"
+  },
+  {
+   "cht": "龍脈協會",
+   "pinyin": "longmaixiehui",
+   "en": "Lumen Association",
+   "kr": "용맥 협회",
+   "type": "세력"
+  },
+  {
+   "cht": "垃圾山船體回收公會",
+   "pinyin": "lajishanchuantihuishougonghui",
+   "en": "Trash Mountain Recycling",
+   "kr": "쓰레기산 선체 회수 조합",
+   "type": "세력"
+  },
+  {
+   "cht": "兔窟通訊社",
+   "pinyin": "tukutongxunshe",
+   "en": "Rabbit Hole Newswire",
+   "kr": "토끼굴 통신사",
+   "type": "세력"
+  },
+  {
+   "cht": "白塜零件實業",
+   "pinyin": "baizhonglingjianshiye",
+   "en": "Shiratsuka Parts Industry",
+   "kr": "시라츠카 부품 실업",
+   "type": "세력"
+  },
+  {
+   "cht": "艾菲爾同盟",
+   "pinyin": "aifeiertongmeng",
+   "en": "Eiffel League",
+   "kr": "에펠 동맹",
+   "type": "세력"
+  },
+  {
+   "cht": "紅壺通訊社",
+   "pinyin": "honghutongxunshe",
+   "en": "Krimson Kettle Media",
+   "kr": "홍호 통신사",
+   "type": "세력"
+  },
+  {
+   "cht": "金辰運輸財團",
+   "pinyin": "jinchenyunshucaituan",
+   "en": "Koomsung Transport",
+   "kr": "금진운수 재단",
+   "type": "세력"
+  },
+  {
+   "cht": "吉普賽家族",
+   "pinyin": "jipusaijiazu",
+   "en": "Rumani Clan",
+   "kr": "집시 가문",
+   "type": "세력"
+  },
+  {
+   "cht": "貴人娛樂事業",
+   "pinyin": "guirenyuleshiye",
+   "en": "Fortuna Entertainment",
+   "kr": "귀인 오락사업",
+   "type": "세력"
+  },
+  {
+   "cht": "萬道巫塔",
+   "pinyin": "wandaowuta",
+   "en": "Myrian Witching Tower",
+   "kr": "만도 무녀의 탑",
+   "type": "세력"
+  },
+  {
+   "cht": "朝歌汜氣能源集團",
+   "pinyin": "chaogesiqinengyuanjituan",
+   "en": "Zhao Ghe Resources",
+   "kr": "조가 사기 에너지 그룹",
+   "type": "세력"
+  },
+  {
+   "cht": "尚待分析",
+   "pinyin": "shangdaifenxi",
+   "en": "Analysis Required",
+   "kr": "분석 대기 중",
+   "type": "세력"
+  },
+  {
+   "cht": "卓越通訊股份有限公司",
+   "pinyin": "zhuoyuetongxungufenyouxiangongsi",
+   "en": "Unison Telecom",
+   "kr": "탁월통신 주식회사",
+   "type": "세력"
+  },
+  {
+   "cht": "奧伯斯光速通訊社",
+   "pinyin": "aobosiguangsutongxunshe",
+   "en": "Opus Media",
+   "kr": "오버스 광속통신사",
+   "type": "세력"
+  },
+  {
+   "cht": "雲龍會",
+   "pinyin": "yunlonghui",
+   "en": "Misty Dragon Society",
+   "kr": "운룡회",
+   "type": "세력"
+  },
+  {
+   "cht": "龍洞探險有限公司",
+   "pinyin": "longdongtanxianyouxiangongsi",
+   "en": "Luma Caverna Exploration",
+   "kr": "용동탐험 유한회사",
+   "type": "세력"
+  },
+  {
+   "cht": "羅登家族",
+   "pinyin": "luodengjiazu",
+   "en": "Rodin Family",
+   "kr": "이씨 가문",
+   "type": "세력"
+  },
+  {
+   "cht": "義體動力有限公司",
+   "pinyin": "yitidongliyouxiangongsi",
+   "en": "Prosthesis Energy",
+   "kr": "의체동력 유한회사",
+   "type": "세력"
+  },
+  {
+   "cht": "79號統合新聞台",
+   "pinyin": "79haotonghexinwentai",
+   "en": "Unity News Channel 79",
+   "kr": "79호 통합 뉴스 방송국",
+   "type": "세력"
+  },
+  {
+   "cht": "龍脈日報",
+   "pinyin": "longmairibao",
+   "en": "The Daily Lumen",
+   "kr": "용맥일보",
+   "type": "세력"
+  }
+ ]
+}
