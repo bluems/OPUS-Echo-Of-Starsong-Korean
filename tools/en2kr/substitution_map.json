@@ -1,0 +1,33 @@
+[
+  {"type":"auto","old":"용맥","new":"루멘"},
+  {"type":"auto","old":"만도","new":"미리안","boundary":"left"},
+  {"type":"auto","old":"흑룡","new":"밴시"},
+  {"type":"auto","old":"백룡","new":"피닉스"},
+  {"type":"auto","old":"촉룡","new":"이그니스"},
+  {"type":"auto","old":"후토","new":"테라"},
+  {"type":"auto","old":"대황","new":"엑시디움"},
+  {"type":"auto","old":"을황","new":"헬리우스"},
+  {"type":"auto","old":"태을","new":"타이양"},
+  {"type":"auto","old":"종손","new":"가주"},
+  {"type":"auto","old":"홍루","new":"레드 챔버"},
+  {"type":"auto","old":"영해","new":"동해"},
+  {"type":"auto","old":"이현","new":"셴 리"},
+  {"type":"auto","old":"이준","new":"준","boundary":"left"},
+
+  {"type":"auto","old":"영기","new":"루미움","boundary":"left"},
+  {"type":"auto","old":"영수","new":"루메나이드","boundary":"left"},
+  {"type":"auto","old":"영정","new":"루메나이트","boundary":"left"},
+  {"type":"auto","old":"철람","new":"아이언윈드","boundary":"left"},
+
+  {"type":"literal","pairs":[
+    ["철람성","아이언윈드"],
+    ["서뢰산","웨스트 마운트 토니트루스"],
+    ["용문","미리안 게이트"],
+    ["「곤」","「쿤」"],
+    ["태공선 「쿤」","우주선 「쿤」"],
+    ["태공선 「곤」","우주선 「쿤」"],
+    ["영해이씨","로댕 가문"],
+    ["이씨 가문","로댕 가문"],
+    ["연가 자객","카이트 자객"]
+  ]}
+]
