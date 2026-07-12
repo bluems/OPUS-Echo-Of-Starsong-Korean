@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "purpose": "영문 기준 비교버전용 고유명 교차언어표(CHT/병음/EN/KR/유형). 음차=EN 따름, 신화·의역=한자음/의역.",
+  "purpose": "영문 기준 비교버전용 고유명 교차언어표(CHT/병음/EN/KR/유형). 음차·신화명=EN 따름, 순수 의역만 의역 유지(한자음 미사용).",
   "updated": "2026-07-12"
  },
  "characters": [
@@ -13,7 +13,7 @@
   {
    "cht": "李莫",
    "en": "Jun",
-   "kr": "준 / 이준",
+   "kr": "준 / 준",
    "type": "인물(EN기준)"
   },
   {
@@ -49,13 +49,13 @@
   {
    "cht": "鳶刺客",
    "en": "Kite Assassin",
-   "kr": "자객 (연가 자객)",
+   "kr": "자객 (카이트 자객)",
    "type": "인물(EN기준)"
   },
   {
    "cht": "紅樓電腦",
    "en": "Red Chamber (AI)",
-   "kr": "홍루",
+   "kr": "레드 챔버",
    "type": "인물(EN기준)"
   },
   {
@@ -67,7 +67,7 @@
   {
    "cht": "李玄",
    "en": "Shen Lee (Clan Master)",
-   "kr": "이현 (종손)",
+   "kr": "셴 리 (가주)",
    "type": "인물(EN기준)"
   },
   {
@@ -79,7 +79,7 @@
   {
    "cht": "王上",
    "en": "Emperor / Helius",
-   "kr": "왕(폐하) / 을황",
+   "kr": "왕(폐하) / 헬리우스",
    "type": "인물(EN기준)"
   },
   {
@@ -99,51 +99,51 @@
   {
    "cht": "太乙 / 太陽神",
    "en": "Taiyang / sun god",
-   "kr": "태을 / 태양신",
-   "type": "신화명(한자음)"
+   "kr": "타이양 / 태양신",
+   "type": "신화명(EN 수용)"
   },
   {
    "cht": "乙皇",
    "en": "Helius",
-   "kr": "을황",
-   "type": "신화명(한자음)"
+   "kr": "헬리우스",
+   "type": "신화명(EN 수용)"
   },
   {
    "cht": "燭龍",
    "en": "Ignis",
-   "kr": "촉룡",
-   "type": "신화명(한자음)"
+   "kr": "이그니스",
+   "type": "신화명(EN 수용)"
   },
   {
    "cht": "后土",
    "en": "Terra",
-   "kr": "후토",
-   "type": "신화명(한자음)"
+   "kr": "테라",
+   "type": "신화명(EN 수용)"
   },
   {
    "cht": "鯤",
    "en": "Khun",
    "kr": "곤",
-   "type": "신화명(한자음)"
+   "type": "신화명(EN 수용)"
   },
   {
    "cht": "白龍",
    "en": "Phoenix",
-   "kr": "백룡",
-   "type": "신화명(한자음)"
+   "kr": "피닉스",
+   "type": "신화명(EN 수용)"
   },
   {
    "cht": "大荒",
    "en": "Excidium",
-   "kr": "대황",
-   "type": "신화명(한자음)"
+   "kr": "엑시디움",
+   "type": "신화명(EN 수용)"
   }
  ],
  "world_terms": [
   {
    "cht": "龍脈",
    "en": "Lumen",
-   "kr": "용맥",
+   "kr": "루멘",
    "type": "용어"
   },
   {
@@ -155,7 +155,7 @@
   {
    "cht": "龍脈常歌 (원작 CHT 부제)",
    "en": "—",
-   "kr": "용맥상가",
+   "kr": "루멘상가",
    "type": "용어"
   },
   {
@@ -191,7 +191,7 @@
   {
    "cht": "紅樓 (선박·AI)",
    "en": "Red Chamber",
-   "kr": "홍루",
+   "kr": "레드 챔버",
    "type": "용어"
   },
   {
@@ -221,13 +221,13 @@
   {
    "cht": "瀛海",
    "en": "East Ocean",
-   "kr": "영해",
+   "kr": "동해",
    "type": "용어"
   },
   {
    "cht": "家主",
    "en": "Clan Master",
-   "kr": "종손",
+   "kr": "가주",
    "type": "용어"
   },
   {
@@ -239,13 +239,13 @@
   {
    "cht": "龍門",
    "en": "Myrian gate",
-   "kr": "용문",
+   "kr": "미리안 게이트",
    "type": "용어"
   },
   {
    "cht": "萬道",
    "en": "Myria/Myrian",
-   "kr": "만도",
+   "kr": "미리안",
    "type": "용어"
   }
  ],
@@ -282,7 +282,7 @@
    "cht": "瀛海",
    "pinyin": "yinghai",
    "en": "East Ocean",
-   "kr": "영해",
+   "kr": "동해",
    "type": "意譯(EN semantic)"
   },
   {
@@ -380,7 +380,7 @@
    "cht": "太乙",
    "pinyin": "taiyi",
    "en": "Taiyang",
-   "kr": "태을",
+   "kr": "타이양",
    "type": "음차/개명(EN name)"
   },
   {
@@ -408,14 +408,14 @@
    "cht": "鐵嵐城",
    "pinyin": "tielancheng",
    "en": "Ironwind",
-   "kr": "철람성(鐵嵐城)",
+   "kr": "아이언윈드(鐵嵐城)",
    "type": "음차/개명(EN name)"
   },
   {
    "cht": "黑龍",
    "pinyin": "heilong",
    "en": "Banshee",
-   "kr": "흑룡(黑龍)",
+   "kr": "밴시(黑龍)",
    "type": "음차/개명(EN name)"
   },
   {
@@ -429,7 +429,7 @@
    "cht": "大荒",
    "pinyin": "dahuang",
    "en": "Excidium",
-   "kr": "대황",
+   "kr": "엑시디움",
    "type": "음차/개명(EN name)"
   },
   {
@@ -471,7 +471,7 @@
    "cht": "燭龍",
    "pinyin": "zhulong",
    "en": "Ignis",
-   "kr": "촉룡",
+   "kr": "이그니스",
    "type": "음차/개명(EN name)"
   },
   {
@@ -527,7 +527,7 @@
    "cht": "乙皇",
    "pinyin": "yihuang",
    "en": "Helius",
-   "kr": "을황",
+   "kr": "헬리우스",
    "type": "음차/개명(EN name)"
   },
   {
@@ -583,7 +583,7 @@
    "cht": "西雷山",
    "pinyin": "xileishan",
    "en": "West Mount Tonitrus",
-   "kr": "서뢰산",
+   "kr": "웨스트 마운트 토니트루스",
    "type": "음차/개명(EN name)"
   },
   {
@@ -611,7 +611,7 @@
    "cht": "后土",
    "pinyin": "houtu",
    "en": "Terra",
-   "kr": "후토",
+   "kr": "테라",
    "type": "음차/개명(EN name)"
   },
   {
@@ -627,14 +627,14 @@
    "cht": "萬道燭龍商會",
    "pinyin": "wandaozhulongshanghui",
    "en": "Myrian Ignis Guild",
-   "kr": "만도 촉룡 상회",
+   "kr": "미리안 이그니스 상회",
    "type": "세력"
   },
   {
    "cht": "瀛海龍脈同盟",
    "pinyin": "yinghailongmaitongmeng",
    "en": "East Ocean Lumen Alliance",
-   "kr": "영해 용맥 동맹",
+   "kr": "동해 루멘 동맹",
    "type": "세력"
   },
   {
@@ -676,7 +676,7 @@
    "cht": "龍脈協會",
    "pinyin": "longmaixiehui",
    "en": "Lumen Association",
-   "kr": "용맥 협회",
+   "kr": "루멘 협회",
    "type": "세력"
   },
   {
@@ -739,7 +739,7 @@
    "cht": "萬道巫塔",
    "pinyin": "wandaowuta",
    "en": "Myrian Witching Tower",
-   "kr": "만도 무녀의 탑",
+   "kr": "미리안 무녀의 탑",
    "type": "세력"
   },
   {
@@ -788,7 +788,7 @@
    "cht": "羅登家族",
    "pinyin": "luodengjiazu",
    "en": "Rodin Family",
-   "kr": "이씨 가문",
+   "kr": "로댕 가문",
    "type": "세력"
   },
   {
@@ -809,7 +809,7 @@
    "cht": "龍脈日報",
    "pinyin": "longmairibao",
    "en": "The Daily Lumen",
-   "kr": "용맥일보",
+   "kr": "루멘일보",
    "type": "세력"
   }
  ]
