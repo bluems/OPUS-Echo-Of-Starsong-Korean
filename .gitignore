@@ -12,4 +12,8 @@ Origin/**
 __pycache__/
 *.pyc
 
+# en2kr 작업 스크래치(후보/패치 중간 산출물) — 최종 결과는 translations/ 에 반영됨
+tools/en2kr/_cand*.json
+tools/en2kr/_patch*.json
+
 **/build/
