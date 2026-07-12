@@ -36,3 +36,19 @@ def test_preserve_tags():
     r = R()
     s = "<color=#fff>용맥</color> {0} 「흑룡」"
     assert apply_text(s, r) == "<color=#fff>루멘</color> {0} 「밴시」"
+
+def test_left_boundary_particle():
+    m = [{"type":"auto","old":"만도","new":"미리안","boundary":"left"}]
+    r = build_rules(m)
+    assert apply_text("만도 촉룡 상회", r) == "미리안 촉룡 상회"
+    assert apply_text("만도의 비밀", r) == "미리안의 비밀"
+    assert apply_text("만도는 무상", r) == "미리안은 무상"
+    # 조사(앞글자 한글) → 미치환
+    assert apply_text("것만도 어딘데", r) == "것만도 어딘데"
+    assert apply_text("짐승만도 못한", r) == "짐승만도 못한"
+
+def test_no_boundary_still_replaces_after_hangul():
+    m = [{"type":"auto","old":"용맥","new":"루멘"}]  # boundary 없음
+    r = build_rules(m)
+    # boundary 미지정이면 앞이 한글이어도 치환(기존 동작 유지)
+    assert apply_text("대용맥", r) == "대루멘"

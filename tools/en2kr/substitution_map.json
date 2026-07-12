@@ -1,6 +1,6 @@
 [
   {"type":"auto","old":"용맥","new":"루멘"},
-  {"type":"auto","old":"만도","new":"미리안"},
+  {"type":"auto","old":"만도","new":"미리안","boundary":"left"},
   {"type":"auto","old":"흑룡","new":"밴시"},
   {"type":"auto","old":"백룡","new":"피닉스"},
   {"type":"auto","old":"촉룡","new":"이그니스"},
