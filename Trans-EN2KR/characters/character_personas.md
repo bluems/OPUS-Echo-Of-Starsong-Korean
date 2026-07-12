@@ -8,17 +8,17 @@
 
 | KR | EN | CHT | 성별 | 역할 | 대사수 | 성격 영어 태그 |
 |---|---|---|---|---|---:|---|
-| 에다 | Eda | 艾妲 | F | 공동주인공·용맥 탐사인(cave runner)/전직 여巫 지망생 | 1222 | `sardonic` `streetwise` `sharp-tongued` `resourceful` `guarded` `wry-humor` `cynical-shell/warm-core` `tomboyish` `world-weary` `pragmatic-negotiator` |
-| 준 (이준) | Jun | 李莫 | M | 공동주인공·영해이씨 후예/조율사(tuner) | 1076 | `earnest` `sincere` `principled` `straightforward` `gentle` `quietly-determined` `naive-idealist` `soft-spoken` `dutiful` |
+| 에다 | Eda | 艾妲 | F | 공동주인공·루멘 탐사인(cave runner)/전직 여巫 지망생 | 1222 | `sardonic` `streetwise` `sharp-tongued` `resourceful` `guarded` `wry-humor` `cynical-shell/warm-core` `tomboyish` `world-weary` `pragmatic-negotiator` |
+| 준 (이준) | Jun | 李莫 | M | 공동주인공·로댕 가문 후예/조율사(tuner) | 1076 | `earnest` `sincere` `principled` `straightforward` `gentle` `quietly-determined` `naive-idealist` `soft-spoken` `dutiful` |
 | 레미 | Remi | 菈米亞 | F | 에다의 **의자매**(혈연 아님), "언니(姊姊)" 호칭 | 525 | `feisty` `protective` `sassy` `spirited` `loyal` `quick-tempered` `streetwise` `blunt` `defiant` |
-| 케이 | Kay | 大魁 | M | 준의 호위(少主 호칭)·영해인 | 322 | `gruff` `fiercely-loyal` `protective` `hot-tempered` `blunt` `proud` `dutiful-retainer` `tough` |
+| 케이 | Kay | 大魁 | M | 준의 호위(少主 호칭)·동해인 | 322 | `gruff` `fiercely-loyal` `protective` `hot-tempered` `blunt` `proud` `dutiful-retainer` `tough` |
 | 본즈 | Bones | 白牙 | M | 몸값 강도단 두목 | 143 | `menacing` `taunting` `casual-cruel` `predatory` `boisterous` `thuggish` `mocking` |
 | 레드 | Red | 紅 | **F** | 무녀탑 5층 인물(취사/선배 巫)·멘토 | 103 | `gruff` `authoritative` `protective` `caring-underneath` `blunt` `maternal-mentor` `principled` |
-| 홍루 | Red Chamber (AI) | 紅樓電腦 | AI(중성) | 선박 AI | 101 | `formal` `factual` `deadpan` `helpful` `precise` `calm` `dry-wit` |
+| 레드 챔버 | Red Chamber (AI) | 紅樓電腦 | AI(중성) | 선박 AI | 101 | `formal` `factual` `deadpan` `helpful` `precise` `calm` `dry-wit` |
 | 러셀 박사 | Dr. Rushell | 羅素醫生 | **M** | 변경 정거장 의사 | 98 | `professional` `measured` `caring` `pragmatic` `weary` `informative` |
 | 상인 라마 | Lamar | 商人拉馬 | M | 변경 상인 | 38 | `gruff` `blunt` `mercenary` `no-nonsense` `impatient` `frontier-trader` |
-| 종손(이현) | Shen Lee / Clan Master | 鳶家主 | M | 영해이씨 종손 | 22 | `authoritative` `formal` `dignified` `patriarchal` `deferential-to-throne` `classical-register` |
-| 연가 자객 | Kite Assassin | 鳶刺客 | **F** | 영해이씨(鳶家) 자객 | 21 | `cold` `taunting` `menacing-calm` `sadistic` `composed` `silken-menace` |
+| 가주(셴 리) | Shen Lee / Clan Master | 鳶家主 | M | 로댕 가문 가주 | 22 | `authoritative` `formal` `dignified` `patriarchal` `deferential-to-throne` `classical-register` |
+| 카이트 자객 | Kite Assassin | 鳶刺客 | **F** | 로댕 가문(鳶家) 자객 | 21 | `cold` `taunting` `menacing-calm` `sadistic` `composed` `silken-menace` |
 
 ## 시기별 분신 (같은 인물의 과거/미래 — voice 연속성 유지)
 
@@ -41,7 +41,7 @@
 | 카피바라 상인 A | 水豚商人 | M(?) | 17 | `smug` `dismissive` `mocking` |
 | 광련 관장 A | 礦聯館長 | M | 16 | `pompous` `propagandistic` `官式-rhetoric` |
 | 무녀탑 고위층 | 巫塔高層 | ?(중립) | 15 | `austere` `commanding` `dogmatic` |
-| 왕(을황) | 王上/乙皇 | M | 6/6 | `imperious` `aloof` `regal` |
+| 왕(헬리우스) | 王上/乙皇 | M | 6/6 | `imperious` `aloof` `regal` |
 | 반구(벤젤) | 斑鳩 | M(?) | 6 | `shifty` `indebted` `evasive` |
 
 ## 비(非)인물 화자 (voice 아님 — 별도 처리)
@@ -51,12 +51,12 @@
 | Actor_Narrator | 旁白 | 내레이션 — 담담한 문어체 서술 (2267줄, 최다) |
 | Actor_None | 無 | 화면 자막/타이틀/장소 카드 (예: "66 표준년 전", 게임 타이틀) — 화자 없음 (124줄) |
 | Actor_Mural | 萬道碑文 | 미리안 비문 — **고문투/문어체 시구** (예: "願萬年星移…") (29줄) |
-| Actor_Victim | 黑龍受難者 | 흑룡 피해자 비명(비언어 위주) (18줄) |
+| Actor_Victim | 黑龍受難者 | 밴시 피해자 비명(비언어 위주) (18줄) |
 | Actor_Soul | 汜靈魂 | 별노래 속 영혼의 음성 — **원문이 EN/CHT 동일 영어**(에테르적). 원문 유지 검토 (18줄) |
 
 ---
 ## 성별/설정 — 확정 완료 (2026-07-12, 사용자/아트북 확인)
 - **레드(紅)**: **여성** 확정.
 - **러셀 박사(羅素)**: **남성** 확정.
-- **연가 자객(鳶刺客)**: **여성** 확정(초기 남성 추정 → 정정).
+- **카이트 자객(鳶刺客)**: **여성** 확정(초기 남성 추정 → 정정).
 - **레미↔에다**: **의자매**(혈연 아님) 확정. 레미를 에다가 거둔 동생. "언니(姊姊)" 호칭 유지.
