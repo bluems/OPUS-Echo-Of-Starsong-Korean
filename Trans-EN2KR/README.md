@@ -15,8 +15,7 @@
 ### characters/
 - `character_profiles.md` — **대사 번역 기준서**: 화자별 한국어 말투(반말/존댓말/문어체)·1인칭·**존댓말/호칭 매트릭스**(레미→에다=언니, 케이→준=도련님 등)·성격. 대사·메일 수정 시 필수.
 - `character_personas.md` — 인물 성별·성격 영어 태그·역할(외부 페르소나 조회/재분석용).
-- `uid2speaker.json` — 대사 uid → 화자(4515 매핑). 화자별 재번역 시 사용.
-- `actor_defs.json` — 액터 54종 정의(GUID→locKey→CHT명).
+- 화자 매핑 자료(`uid2speaker.json` 4515 매핑, `actor_defs.json` 54 액터 정의)는 세 변형 공통이라 **`Common/Characters/`** 로 이동됨(GUID→locKey→CHT명). 화자별 재번역 시 사용.
 
 ### translations/
 최종 KR 번역 전량. 주입 시 sharedassets2 각 TextAsset의 `_KR` 필드로 들어감(Common/injection-guide 참조).
