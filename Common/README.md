@@ -9,6 +9,12 @@ OPUS: Echo of Starsong 한국어(또는 임의 언어) 번역에 공통으로 �
 - **`scripts/build_krfont.py`** — 폰트 TMP 생성 스크립트. sharedassets2 에 Noto CJK KR TMP_FontAsset 을 만들고 FontSettings 에 KR 매핑 배선 → `.fontready` 생성. `python build_krfont.py <game_data_dir> [out.assets] [noto.otf]`.
 - **`scripts/verify_krfont.py`** — 폰트 TMP 검증(신규 Font/Atlas/TMP + FontSettings KR 매핑, 이름 기준 조회). `python verify_krfont.py <game_data_dir> [target.assets]`.
 - **`scripts/inject_kr.py`** — 재사용 주입 스크립트. `python inject_kr.py <base.assets> <translations_dir> <out.assets>`.
+- **`Characters/`** — 게임 소스에서 추출한 **변형 무관 화자/액터 참조 자료**(한국어 없음, 세 변형 공통).
+  - `characters.json` — 액터 다국어 대조표(key/CHT/EN/JP/CHS).
+  - `uid2speaker.json` — 대사 uid → 화자(4515 매핑). 화자별 재번역 시 참조.
+  - `actor_defs.json` — 액터 54종 정의(GUID→locKey→CHT명).
+- **`translation_keys.json`** — **공통 키 매니페스트**. 모든 `Trans-*/translations/*_kr.json` 이 따라야 할 파일별 키(UUID) 집합·순서. 게임 소스 파생.
+- **`scripts/check_keys.py`** — 변형 간 **키 드리프트 검증**(누락/초과/순서). `python Common/scripts/check_keys.py [변형...] [--strict]`. 매니페스트 재생성은 `--update`. `build_assets.py` 가 빌드 전 자동 호출(`--no-check` 로 생략).
 
 ## 빠른 시작 (게임 업데이트 후 재패치)
 1. 새 `sharedassets2.assets` 백업(pristine).
