@@ -141,7 +141,7 @@
    - 정규식(바이너리, latin-1): `"actorRef":\{"uid":"([0-9a-f\-]{36})"\}.{0,600}?"_UID":"([0-9a-f\-]{36})"`
 2. ACTOR_GUID→이름: sharedassets2의 **개별 ActorSetup MonoBehaviour**(각 액터 1개, 예 pid 75452)에 `Actor_<Role>`(locKey) + uid + CHT명(예 艾妲) 저장. 문자열 length-prefix 파싱으로 (uid→locKey→CHT명) 수집.
 3. 최종 조인: STORY_UID → ACTOR_GUID → (locKey, CHT명) → KR 인물명(용어집).
-- 산출물: `uid2speaker.json`(4515 매핑), `actor_defs.json`(54 액터 정의), `character_personas.md`(페르소나 참고표).
+- 산출물: `Common/Characters/uid2speaker.json`(4515 매핑·세 변형 공통), `Common/Characters/actor_defs.json`(54 액터 정의·공통), `character_personas.md`(페르소나 참고표).
 
 ### 핵심 화자 (대사량)
 에다(艾妲/F,1222) · 준(李莫/M,1076) · 레미(菈米亞/F,525) · 케이(大魁/M,322) · 본즈(白牙/M,143) · 레드(紅/F?,103) · 레드 챔버AI(紅樓電腦,101) · 러셀박사(羅素醫生,98) · 가주 셴 리(鳶家主/M,22). 시기별 분신(에다/준/레미의 소녀·어린시절·노년)은 원형과 voice 연속성 유지.
