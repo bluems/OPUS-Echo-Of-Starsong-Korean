@@ -20,7 +20,7 @@ for o in env.objects:
 char = re.compile(rb'"actorRef":\{"uid":"([0-9a-f\-]{36})"\}.{0,600}?"_UID":"([0-9a-f\-]{36})"', re.S)
 narr = re.compile(rb'"_actorName":"Narrator".{0,600}?"_UID":"([0-9a-f\-]{36})"', re.S)
 ```
-→ (STORY_UID, ACTOR_GUID) / Narrator. ACTOR_GUID→이름은 sharedassets2의 개별 ActorSetup MB에서 Unity length-prefixed 문자열 파싱(`Actor_<Role>` + uid + CHT명). 결과 산출물: `characters/uid2speaker.json`, `characters/actor_defs.json`.
+→ (STORY_UID, ACTOR_GUID) / Narrator. ACTOR_GUID→이름은 sharedassets2의 개별 ActorSetup MB에서 Unity length-prefixed 문자열 파싱(`Actor_<Role>` + uid + CHT명). 결과 산출물: `Common/Characters/uid2speaker.json`, `Common/Characters/actor_defs.json`(세 변형 공통).
 
 ## 音譯(음차) 판별 — pypinyin
 중국어판은 서양 고유명도 한자 음역(예 梅費爾=Mayfair). `pip install pypinyin`:
